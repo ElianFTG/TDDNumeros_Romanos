@@ -10,5 +10,11 @@ describe("Romano", () => {
   it("Deberia retornar de 5 a V", () => {
     expect(romano(5)).toEqual('V');
   });
+  it("Deberia retornar de 9 a IX", () => {
+    expect(romano(9)).toEqual('IX');
+  });
+  it("Deberia retornar de 10 a X", () => {
+    expect(romano(10)).toEqual('X');
+  });
 });
 
