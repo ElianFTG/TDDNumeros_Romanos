@@ -1,5 +1,5 @@
 function romano(num) {
-    const map = new Map([[10,"X"], [9,"IX"], [5,"V"], [4,"IV"], [1,"I"]]);
+    const map = new Map([[40, "XL"],[10,"X"], [9,"IX"], [5,"V"], [4,"IV"], [1,"I"]]);
     let cadena = "";
     var flag = false;
     while(num != 0) {
@@ -12,7 +12,6 @@ function romano(num) {
         });
         flag = false;
     }
-    
     return cadena;
 }
 
