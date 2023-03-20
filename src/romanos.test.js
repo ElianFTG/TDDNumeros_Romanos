@@ -28,5 +28,8 @@ describe("Romano", () => {
   it("Deberia retornar de 55 a LV", () => {
     expect(romano(55)).toEqual('LV');
   });
+  it("Deberia retornar de 99 a XCIX", () => {
+    expect(romano(99)).toEqual('XCIX');
+  });
 });
 
