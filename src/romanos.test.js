@@ -31,5 +31,8 @@ describe("Romano", () => {
   it("Deberia retornar de 99 a XCIX", () => {
     expect(romano(99)).toEqual('XCIX');
   });
+  it("Deberia retornar de 100 a C", () => {
+    expect(romano(100)).toEqual('C');
+  });
 });
 
